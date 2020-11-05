@@ -34,5 +34,5 @@
 		<constructor-arg ref="combinedLoggersList"/>
 		<property name="name" value="#{'Combined ' + combinedLoggersList.![name].toString()}" />
 	</bean>
-    
+
 </beans>
